@@ -1,0 +1,349 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     
+        font-family: "Rubik Wet Paint", serif;
+        background-color:  burlywood;
+        
+    
+   
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color:rgb(183, 124, 47);
+    align-items: center;
+}
+nav ul  li{
+    padding: 0 14px;
+    list-style: none;
+    color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;}
+.logo img{
+    height: 60px;
+    border-radius: 2px;
+}
+.logo{
+display: flex;
+align-items: center;
+font-size:25px;
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    width: 75%;
+    margin: 22px auto;
+    background-color: rgb(183, 124, 47);
+    border-radius: 15px;
+    background-image: url("./music\ background.jpg") ;
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.bottom{
+    position: sticky;
+    height: 60px;
+    background-color: rgb(183, 124, 47);
+    color: rgb(253, 225, 188);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#musicBar{
+    width: 80vh;
+    
+    
+}
+.icons{
+    font-size: 25px;
+    cursor: pointer;
+}
+.songItem{
+    height:  50px;
+    display: flex;
+    background-color: burlywood;
+    color:black;
+    width: 100%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 5%;
+    
+}
+.songItem img{
+   height: 50px;
+   width: 50px;
+   margin: 0 20px;
+   border-radius: 20px;
+    
+}
+
+.timeStamp{
+    margin: 0 23px;
+   
+}
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songIcon img{
+    height: 20px;
+    left: 5%;
+    position: absolute;
+top: 30% ;
+}
+.songIcon p{
+    font-size: 14px;
+    color: black;
+    left: 7%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    top: 32*/
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Rubik Wet Paint", serif;
+    background-color: burlywood;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: rgb(183, 124, 47);
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 14px;
+    list-style: none;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo img {
+    height: 60px;
+    border-radius: 2px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    width: 75%;
+    margin: 22px auto;
+    background-color: rgb(183, 124, 47);
+    border-radius: 15px;
+    background-image: url("./music background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom {
+    position: sticky;
+    height: 60px;
+    background-color: rgb(183, 124, 47);
+    color: rgb(253, 225, 188);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#musicBar {
+    width: 80vh;
+}
+
+.icons {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: burlywood;
+    color: black;
+    width: 100%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    margin-left: 5%;
+}
+
+.songItem img {
+    height: 50px;
+    width: 50px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+
+.timeStamp {
+    margin: 0 23px;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.songIcon img {
+    height: 20px;
+    left: 5%;
+    position: absolute;
+    top: 30%;
+}
+
+.songIcon p {
+    font-size: 14px;
+    color: black;
+    left: 7%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    top: 32%;
+}
+
+/* Media Queries */
+
+/* For screens larger than 1024px */
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
+
+    #musicBar {
+        width: 70vh;
+    }
+
+    .icons {
+        font-size: 28px;
+    }
+}
+
+/* For tablets (between 600px and 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+    nav ul {
+        height: 50px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    #musicBar {
+        width: 60vh;
+    }
+
+    .songItem img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .timeStamp {
+        margin: 0 15px;
+    }
+
+    .songIcon img {
+        height: 18px;
+    }
+    
+    .songIcon p {
+        font-size: 12px;
+        left: 8%;
+        top: 33%;
+    }
+}
+
+/* For mobile devices (600px and below) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .songItem {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .songItem img {
+        height: 40px;
+        width: 40px;
+        margin: 10px 0;
+    }
+
+    .timeStamp {
+        margin: 0;
+    }
+
+    #musicBar {
+        width: 90%;
+    }
+
+    .songIcon img {
+        height: 16px;
+    }
+
+    .songIcon p {
+        font-size: 12px;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .icons {
+        font-size: 20px;
+    }
+}

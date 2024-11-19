@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A simple music folder</title>
+    <link rel="stylesheet" href="./music.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="./image.png" alt=" music label">label</li>
+            <li><a href="/">home</a> </li>
+            <li><a href="/">about</a></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>Timeless classics</h1>
+            <div class="songItem">
+                <img src="./golmaal cover.jpg" alt="1">
+                <span>aanewaala pal</span>
+                <span class="songlistplay"><span class="timeStamp">04:39 <i class="fa-regular fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="./ajeeb dastan_cover.jpg" alt="1">
+                <span></span>ajib dastan hai yeh
+                <span class="songlistplay"><span class="timeStamp">05:15 <i class="fa-regular fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="./golmaal cover.jpg" alt="1">
+                <span>Zindagi kaise hai pheli</span>
+                <span class="songlistplay"><span class="timeStamp">03:29 <i class="fa-regular fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="./golmaal cover.jpg" alt="1">
+                <span>kahi baar yuh bhi</span>
+                <span class="songlistplay"><span class="timeStamp">03:22 <i class="fa-regular fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="./golmaal cover.jpg" alt="1">
+                <span>Gaata rahe mera dil</span>
+                <span class="songlistplay"><span class="timeStamp">04:54 <i class="fa-regular fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="./golmaal cover.jpg" alt="1">
+                <span>Jaha mai jaati hu</span>
+                <span class="songlistplay"><span class="timeStamp">04:05 <i class="fa-regular fa-circle-play"></i></span></span>
+            </div>
+            
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="" id="musicBar" min="0" max="200">
+        <div class="icons">
+            <i class="fa-solid fa-backward"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay" ></i>
+
+            <i class="fa-solid fa-forward"></i>
+            <div class="songIcon">
+                <img src="./frkst-records.gif" alt=""><p>Aaanewala pal jaane wala hai</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./music.js"></script>
+
+</body>
+
+</html>
